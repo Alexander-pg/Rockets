@@ -1,0 +1,52 @@
+.navBar{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navBar .leftElements{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    width: 49%;
+    gap: 10px;
+    
+}
+
+.navBar .rightElements{
+    flex-wrap: wrap;
+    width: 49%;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.navBar p{
+    width: 120px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navBar .link:hover{
+    color: rgb(199, 197, 207);
+}
+
+.navBar .link{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:350px) {
+    .navBar .leftElements{
+        justify-content: center;
+        width: 100%;
+    }
+    .navBar .rightElements{
+        justify-content: center;
+        width: 100%;
+    }
+}

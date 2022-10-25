@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.App-home{
+    height: 100vh;
+
+    background: rgb(114,84,134);
+    background: linear-gradient(90deg, rgba(114,84,134,1) 0%, rgba(31,33,33,1) 100%, rgba(252,176,69,1) 100%); 
+    background-image: url("./components/for_press_release.jpg");
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    width: 40%;
+    margin: 0 auto;
+    margin-top:100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo img{
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-starship{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.freethink.com/wp-content/uploads/2022/01/Starship_Web.jpg?resize=1200,630);
+    background-size:cover;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.App-starship button{
+    width: 200px;
+    border:3px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-left:10px;
+    background: none;
+    font-size: 1em;
+    font-weight: bold;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-starship .link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.App-falcon9{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/in-this-spacex-handout-image-a-falcon-9-rocket-carrying-the-news-photo-1591219555.jpg);
+    background-size:cover;
+    
+}
+
+.App-falcon9 button{
+    width: 200px;
+    border:3px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-left:10px;
+    background: none;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.App-falcon9 .link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
