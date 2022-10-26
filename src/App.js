@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
      <div className="App-home">
-      
+      alert("Thi is us")
       <Menu />
           <div className="logo"><img  src={logo} /> </div>
     </div> 
