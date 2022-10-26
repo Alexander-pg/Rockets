@@ -68,3 +68,56 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+
+.App-falcon1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://static.nationalgeographic.es/files/styles/image_3200/public/01_spacex_milestone_481496main_rpd_spaceX_full.jpg?w=1900&h=1267);
+    background-size:cover;
+    
+}
+
+.App-falcon1 button{
+    width: 200px;
+    border:3px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-left:10px;
+    background: none;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.App-falcon1 .link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.App-falconHeavy{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    background-image: url(http://spaceflightnow.com/wp-content/uploads/2019/04/WS-Falcon-Heavy-Arabsat-11855.jpeg);
+    background-size:cover;
+    
+}
+
+.App-falconHeavy button{
+    width: 200px;
+    border:3px solid rgb(255, 255, 255);
+    height: 60px;
+    margin-left:10px;
+    background: none;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.App-falconHeavy .link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

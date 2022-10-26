@@ -1,10 +1,12 @@
 import Menu from "./menu"
+import Molde from "./moldeCohetes"
 export default function Falcon1(){
     return(
        
         <div>
-             <Menu />
-            Falcon 1 
+             <Molde 
+             rocket_id={0}
+             />
 
         </div>
     )

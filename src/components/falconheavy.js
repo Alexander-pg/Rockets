@@ -1,10 +1,7 @@
 import Menu from "./menu"
+import Molde from "./moldeCohetes"
 export default function FalconHeavy(){
     return(
-        <div>
-            <Menu />
-
-            Falcon heavy
-        </div>
+        <Molde rocket_id={2}/>
     )
 }
